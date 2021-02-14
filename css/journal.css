@@ -1,0 +1,97 @@
+figure .representation {
+  display: block;
+  margin: 0 0 .5rem; }
+
+figcaption {
+  padding: 0 .5rem .5rem;
+  font-size: .8125rem;
+  text-align: right; }
+  figcaption .original::before {
+    content: ' ';
+    display: block; }
+
+img {
+  max-width: 100%; }
+
+blockquote {
+  padding: 1rem;
+  border-left: 5px solid #e5e5e5;
+  color: #686868;
+  font-style: italic; }
+  blockquote p {
+    margin: 0; }
+  blockquote cite {
+    display: block;
+    margin: 1rem 0 0;
+    font-size: .875rem;
+    text-align: right; }
+
+ol,
+ul {
+  margin: 0 0 1rem 1.25rem;
+  padding: 0;
+  list-style-position: outside; }
+  ol ol,
+  ol ul,
+  ul ol,
+  ul ul {
+    margin-bottom: 0; }
+
+li {
+  margin: 0; }
+  li:not(last-of-type) {
+    margin-bottom: .4rem; }
+
+abbr {
+  border-bottom: 1px dashed currentColor;
+  text-decoration: none;
+  cursor: help; }
+
+kbd,
+code,
+pre {
+  font-family: '"Source Code Pro"', monospace; }
+
+pre {
+  max-width: 100%; }
+
+kbd,
+code {
+  margin: 0;
+  padding: .125rem .25rem 0;
+  background-color: #e5e5e5; }
+
+article,
+section {
+  display: block;
+  margin-bottom: 1rem; }
+
+.posts ol {
+  margin-left: 0;
+  list-style: none; }
+.posts li {
+  margin-bottom: .5rem; }
+  @media screen and (min-width: 800px) {
+    .posts li {
+      display: flex;
+      flex-direction: row; } }
+.posts time {
+  display: block; }
+  @media screen and (min-width: 800px) {
+    .posts time {
+      flex: 0 0 5rem; } }
+  .posts time + a {
+    margin-left: 1rem; }
+    @media screen and (min-width: 800px) {
+      .posts time + a {
+        margin-left: 2rem; } }
+
+.post .post-header {
+  margin-bottom: 3rem; }
+.post .post-date {
+  display: block;
+  margin: 0 0 1rem;
+  text-align: right; }
+
+.hljs {
+  font-size: .875rem; }
